@@ -1,0 +1,208 @@
+{
+  "_comment": "Not a real Schwung module -- chain_params lists the VST parameters of riffbox_vst.cpp so mpc-vst-plugins' tools/gen_vst.py can generate params.h + the skin. Keys must match riffbox_vst.cpp. Start values the plugin sets itself (start_values()).",
+  "chain_params": [
+    {
+      "key": "shape",
+      "name": "Chord",
+      "options": [
+        "POWER 5",
+        "POWER 8",
+        "OCTAVES",
+        "MAJOR",
+        "MINOR",
+        "SUS2",
+        "SUS4",
+        "DOM7",
+        "MIN7",
+        "MAJ7",
+        "ADD9"
+      ]
+    },
+    {
+      "key": "octave",
+      "name": "Octave",
+      "min": -2,
+      "max": 2
+    },
+    {
+      "key": "strum",
+      "name": "Strum",
+      "min": 0,
+      "max": 60
+    },
+    {
+      "key": "stroke",
+      "name": "Stroke",
+      "options": [
+        "DOWN",
+        "UP",
+        "ALT"
+      ]
+    },
+    {
+      "key": "mute",
+      "name": "Palm Mute",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "sustain",
+      "name": "Sustain",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "bright",
+      "name": "Pick Tone",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "release",
+      "name": "Release",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "double",
+      "name": "Double",
+      "options": [
+        "OFF",
+        "ON"
+      ]
+    },
+    {
+      "key": "pedal",
+      "name": "Pedal",
+      "options": [
+        "OFF",
+        "RAT",
+        "TURBO RAT",
+        "GE RAT",
+        "RUETZ RAT"
+      ]
+    },
+    {
+      "key": "ped_dist",
+      "name": "Ped Dist",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "ped_filter",
+      "name": "Ped Filter",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "ped_level",
+      "name": "Ped Level",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "amp",
+      "name": "Amp",
+      "options": [
+        "CLEAN",
+        "CLASSIC ROCK",
+        "BRIT GARAGE",
+        "FUZZ",
+        "STONER"
+      ]
+    },
+    {
+      "key": "gain",
+      "name": "Gain",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "bass",
+      "name": "Bass",
+      "min": -12,
+      "max": 12
+    },
+    {
+      "key": "mid",
+      "name": "Mid",
+      "min": -12,
+      "max": 12
+    },
+    {
+      "key": "treble",
+      "name": "Treble",
+      "min": -12,
+      "max": 12
+    },
+    {
+      "key": "volume",
+      "name": "Volume",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "at_vib",
+      "name": "AT Vibrato",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "at_bend",
+      "name": "AT Bend",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "at_fb",
+      "name": "AT Feedback",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "at_wah",
+      "name": "AT Wah",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "at_gain",
+      "name": "AT Gain",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "dly_time",
+      "name": "Delay Time",
+      "options": [
+        "1/16",
+        "1/8T",
+        "1/8",
+        "3/16",
+        "1/4",
+        "1/4D",
+        "1/2"
+      ]
+    },
+    {
+      "key": "dly_fb",
+      "name": "Delay Fdbk",
+      "min": 0,
+      "max": 95
+    },
+    {
+      "key": "dly_mix",
+      "name": "Delay Mix",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "dly_pp",
+      "name": "Ping Pong",
+      "options": [
+        "OFF",
+        "ON"
+      ]
+    }
+  ]
+}

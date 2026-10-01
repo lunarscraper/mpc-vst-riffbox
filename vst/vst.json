@@ -1,0 +1,10 @@
+{
+  "name": "RiffBox",
+  "vendor": "lunarscraper",
+  "uid": "RfBx",
+  "version": 2000,
+  "so": "riffbox.so",
+  "module": "module.json",
+  "layout": "layout.conf",
+  "_comment": "Instrument: electric guitar chords per note (extended Karplus-Strong strings, the principle of DISTRHO Kars / karplong) into five amp models, aftertouch, delay. vst.json/module.json only feed mpc-vst-plugins' tools/gen_vst.py for params.h + the skin. The plugin is riffbox_vst.cpp, built by this port's own build.sh."
+}
