@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Build RiffBox as a VST2 instrument for the MPC OS plugin host (armhf).
-#   vst/build/riffbox.so            -> /sdcard/vst/ on the device
-#   vst/build/pluginlist-entry.xml  the <PLUGIN> line for MPC.settings' pluginList-arm
-#   vst/build/skin/                 -> /sdcard/Synths/ on the device
+#   vst/build/riffbox.so            the plugin (the release workflow packs it for "VST2 Plugins" on MPC OS 3.10.1+)
+#   vst/build/pluginlist-entry.xml  the <PLUGIN> line for MPC.settings pluginList-arm (MPC OS 3.9.1 only)
+#   vst/build/skin/                 the Force-Look skin (gen_vst.py, then force_look.py as skin_post)
 # One source file, riffbox_vst.cpp, no dependencies. vst.json/module.json only feed
 # tools/gen_vst.py for params.h + the skin. Offline test + benchmark: test.sh.
 set -euo pipefail
